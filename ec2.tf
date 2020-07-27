@@ -273,8 +273,8 @@ resource "aws_s3_bucket_object" "object1"{
 		aws_s3_bucket.apps,
 	]
   bucket = "${aws_s3_bucket.apps.bucket}"
-  key = "vimalDaga.jpg"
-  source = "/home/apps/Desktop/vimalDaga.jpg"
+  key = "IIEC_RISE.jpeg"
+  source = "/home/apps/Desktop/IIEC_RISE.jpeg"
   acl = "public-read"
-  content_type= "images or jpg"
+  content_type= "images or jpeg"
 }	
